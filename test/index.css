@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+}
+
+header .logo {
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-area {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.right-sidebar {
+    width: 250px;
+    padding: 20px;
+}
+
+.create-center button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ff6200;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.create-center button:hover {
+    background-color: #e15d00;
+}
+
+.article-ranking ul {
+    list-style-type: none;
+}
+
+.article-ranking ul li {
+    margin-bottom: 10px;
+}
+
+.article-ranking ul li a {
+    text-decoration: none;
+    color: black;
+}
